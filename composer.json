@@ -1,0 +1,15 @@
+{
+    "name": "sylingd/co-memcached",
+    "description": "Memcached coroutine client",
+    "type": "library",
+    "require-dev": {
+        "phpunit/phpunit": "^7.5"
+    },
+    "license": "MIT",
+    "require": {},
+	"autoload": {
+		"psr-4": {
+			"CoMemcached\\": "src/"
+		}
+	}
+}
